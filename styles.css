@@ -1,0 +1,43 @@
+#enlaces {
+    display: flex;
+    gap: 50px; /* Ajusta el valor según tu preferencia para separar los enlaces */
+    align-items: center;
+  }
+  
+  #enlaces .nav-link {
+    margin: 20PX; /* Elimina los márgenes de los enlaces para que estén más juntos */
+  }
+  
+  body {
+    background-image: url('img/frutas-mas-vendidas-mundo.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-attachment: fixed; /* Opcional: hace que el fondo sea fijo mientras se desplaza la página */
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  body::after {
+    content: "";
+    background-color: rgba(255, 255, 255, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+#fraseinicio {padding:11% 30%;
+    text-align: center;
+    animation: salto 2s infinite; /* 2 segundos de duración, animación infinita */
+  }
+      
+  @keyframes salto {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px); /* Controla la altura del salto ajustando el valor */
+    }
+  }
+#texto {background-color: rgb(131, 218, 124);
+color: aliceblue;
+margin-top: 14px;}
