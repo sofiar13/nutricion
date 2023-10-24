@@ -26,6 +26,7 @@
     z-index: -1;
   }
 #fraseinicio {padding:11% 30%;
+    font-family: 'Quicksand', sans-serif;
     text-align: center;
     animation: salto 2s infinite; /* 2 segundos de duración, animación infinita */
   }
