@@ -68,6 +68,26 @@ margin-top: 15%;
     letter-spacing: 2px;
 }
 
+#planes {
+  font-family: 'Rowdies', sans-serif;
+  font-weight: 700; /* Peso bold (700) */
+  font-style: italic; /* Estilo itálico */
+  padding-bottom: 3%;
+  padding-top: 5%;
+}
+
 .card-title {
     color: rgb(131, 218, 124);
+}
+
+.card {
+  font-size: 14px; /* Tamaño de fuente más pequeño */
+  padding: 1rem; /* Espaciado interno de 1 rem (ajusta según tus necesidades) */
+  margin: 8px;
+  height: 530px;
+}
+
+.card img {
+  max-width: 100%; /* Hace que las imágenes se ajusten al ancho de la tarjeta */
+  height: auto; /* Mantiene la proporción de aspecto */
 }
