@@ -91,3 +91,15 @@ margin-top: 15%;
   max-width: 100%; /* Hace que las imágenes se ajusten al ancho de la tarjeta */
   height: auto; /* Mantiene la proporción de aspecto */
 }
+
+button {
+  background-color: rgb(131, 218, 124);
+  margin: 3px;
+ 
+}
+
+button:focus {
+  outline: 2px solid transparent; 
+  outline-offset: 2px; 
+ 
+}
